@@ -11,9 +11,6 @@ import './App.css';
 
 import React from 'react';
 
-if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
-    ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
-}
 
 function App() {
     return (
