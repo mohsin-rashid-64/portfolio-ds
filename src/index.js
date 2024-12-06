@@ -1,12 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React,  { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
 import App from './App';
-import "./index.css";
+import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import 'aos/dist/aos.css';
+import { AuthProvider } from './Context/AuthContext';
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <AuthProvider>
+      <App />
+    </AuthProvider>
+  </StrictMode>
 );
+reportWebVitals();

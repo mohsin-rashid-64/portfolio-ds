@@ -1,70 +1,70 @@
+# Getting Started with Create React App
 
-<h2>
-  Personal Portfolio
-  <a href="https://rodrigo-arenas.github.io/portfolio" target="_blank">Website</a>
-</h2>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is my website to resume my work as a data scientist.
-The page mainly uses React and MUI and is inspired by open-source components.
+## Available Scripts
 
-Feel free to use this project as a template, and please give a small credit by linking back to this project.
-If you found this project helpful, consider giving it a 
-[star](https://github.com/rodrigo-arenas/portfolio/stargazers) [⭐](https://github.com/rodrigo-arenas/portfolio/stargazers)
+In the project directory, you can run:
 
-**[Live Demo](https://rodrigo-arenas.github.io/portfolio/)**
+### `npm start`
 
-<img src="./src/assets/images/website.gif" alt="demo">
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installation Guide
+### `npm test`
 
-* Fork the project 
-  ```
-  https://github.com/rodrigo-arenas/portfolio/fork
-  ```
-* Clone your fork
-  ```
-  git clone https://github.com/{yourusername}/portfolio.git
-  ```
-* Install the packages
-  ```
-  npm install
-  ```
-* Start the project
-  ```
-  npm start
-  ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Customize your information
+### `npm run build`
 
-All the content (text, icons, links, etc.) are configured in the `assets` folders,
-it has two kinds:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Configs:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-There is one configuration file per page or main component, for example, if you want
-to modify the footer icons and hyperlinks, go to the footerConfig.js file
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![footer](src/assets/images/footer.png)
+### `npm run eject`
 
-Here, you can modify all the values but keep the key's names, structure, and className the same; 
-you can also add new values to the configs containing a list.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Images:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-This folder is meant to keep images displayed over some routes, like blogs and projects.
-For example, inside the projectsConfig.js file, the list of projects has a property called "image":
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-![projects_config.png](src/assets/images/projects_config.png)
+## Learn More
 
-You can set any valid href for the `<a/>` tag as an image URL or, like in the above image, 
-an image from the `assets/images` folder.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-![projects_images](projects_images.png)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-### Set Google Analytics track (Optional):
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Take the `.env.example` file, put your tracking ID in the 
-variable `REACT_APP_TRACKING_ID`, and rename the file to `.env`
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
